@@ -1,0 +1,8 @@
+1. A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR and 
+delete operations to be performed at another end called FRONT.
+Queue is referred to be as First In First Out list.
+operations on Queue:
+1.Enqueue: The Enqueue operation is used to insert the element at the rear end of the queue. It returns void
+2.Dequeue: It performs the deletion from the front-end of the queue. It also returns the element which has been removed from the front-end. It returns an integer value.
+•	Implementation using array: The sequential allocation in a Queue can be implemented using an array
+•	Implementation using Linked list: The linked list allocation in a Queue can be implemented using a linked list
