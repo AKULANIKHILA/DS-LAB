@@ -1,0 +1,15 @@
+In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We can have circular singly linked list as well as circular doubly linked list.
+We traverse a circular singly linked list until we reach the same node where we started. 
+Insertion at beginning
+Adding a node into circular singly linked list at the beginning.
+Insertion at the end
+Adding a node into circular singly linked list at the end.
+1	Deletion at beginning
+Removing the node from circular singly linked list at the beginning.
+2	Deletion at the end
+Removing the node from circular singly linked list at the end.
+3	Searching
+Compare each element of the node with the given item and return the location at which the item is present in the list otherwise return null.
+4	Traversing
+Visiting each element of the list at least once in order to perform some specific operation.
+
