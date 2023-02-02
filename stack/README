@@ -1,0 +1,16 @@
+ Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle.
+It contains only one pointer top pointer pointing to the topmost element of the stack.
+Whenever an element is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack.
+In other words, a stack can be defined as a container in which insertion and deletion can be done from the one end known as the top of the stack.
+In array implementation, the stack is formed by using the array. All the operations regarding the stack are performed using arrays.
+operations performed on stack are: 1.Adding an element onto the stack (push operation)
+                                   2.Deletion of an element from a stack (Pop operation)
+Stack is overflown when we try to insert an element into a completely filled stack therefore, our main function must always avoid stack overflow condition.
+The underflow condition occurs when we try to delete an element from an already empty stack.
+STACKPOINTER
+Instead of using array, we can also use linked list to implement stack. Linked list allocates the memory dynamically. 
+However, time complexity in both the scenario is same for all the operations i.e. push, pop and display.
+In linked list implementation of stack, the nodes are maintained non-contiguously in the memory. 
+Each node contains a pointer to its immediate successor node in the stack. 
+Stack is said to be overflown if the space left in the memory heap is not enough to create a node.
+The top most node in the stack always contains null in its address field.
